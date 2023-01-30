@@ -7,7 +7,6 @@ try:
     browser = webdriver.Chrome()
     browser.get(link)
 
-    # ждём пока подгрузится
     time.sleep(3)
 
     # class ^= (начинается с) delivery-root
